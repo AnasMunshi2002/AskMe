@@ -1,0 +1,187 @@
+body{
+    background-color: rgb(255, 255, 255);
+}
+.queblock{
+    width: 60%;
+    margin-top: 10%;
+    margin-left: 13%;
+    border: 2px;
+    border-style:outset;
+    box-shadow: 5px 3px 10px;
+    font-family: sans-serif;
+}
+.section1{
+    background-color: rgb(255, 255, 255);
+    margin-top: -30px;
+    font-size: 20px;
+}
+.ansspace{
+    margin-left: 10px;
+}
+.ansspace textarea{
+    background-color: rgb(221, 216, 216);
+    border-radius: 10px;
+    padding: 6px;
+    font-size: 18px;
+}
+.ansbutton{
+    font-size: large;
+    background-color: rgb(179, 240, 255);
+    border-radius: 10px;
+}
+.ansbutton:hover{
+    cursor: pointer;
+    background-color: rgb(77, 131, 237);
+}
+#submit1{
+    position: relative;
+    top: -30px;
+    margin-right: 40px;
+    float: right;
+    background-color:rgb(179, 240, 255) ;
+    font-size: large;
+    border-radius: 10px;
+}
+#submit1::after{
+    position: relative;
+    top: -30px;
+}
+#submit1:hover{
+    background-color: rgb(77, 131, 237);
+    cursor: pointer;
+    position: relative;
+    top: -30px;
+}
+#submit2{
+    position: relative;
+    top: -30px;
+    margin-right: 40px;
+    float: right;
+    background-color:rgb(179, 240, 255) ;
+    font-size: large;
+    border-radius: 10px;
+}
+#submit2::after{
+    position: relative;
+    top: -30px;
+}
+#submit2:hover{
+    background-color: rgb(77, 131, 237);
+    cursor: pointer;
+    position: relative;
+    top: -30px;
+}
+#submit3{
+    position: relative;
+    top: -30px;
+    margin-right: 40px;
+    float: right;
+    background-color:rgb(179, 240, 255) ;
+    font-size: large;
+    border-radius: 10px;
+}
+#submit3::after{
+    position: relative;
+    top: -30px;
+}
+#submit3:hover{
+    background-color: rgb(77, 131, 237);
+    cursor: pointer;
+    position: relative;
+    top: -30px;
+}
+#submit4{
+    position: relative;
+    top: -30px;
+    margin-right: 40px;
+    float: right;
+    background-color:rgb(179, 240, 255) ;
+    font-size: large;
+    border-radius: 10px;
+}
+#submit4::after{
+    position: relative;
+    top: -30px;
+}
+#submit4:hover{
+    background-color: rgb(77, 131, 237);
+    cursor: pointer;
+    position: relative;
+    top: -30px;
+}
+#submit5{
+    position: relative;
+    top: -30px;
+    margin-right: 40px;
+    float: right;
+    background-color:rgb(179, 240, 255) ;
+    font-size: large;
+    border-radius: 10px;
+}
+#submit5::after{
+    position: relative;
+    top: -30px;
+}
+#submit5:hover{
+    background-color: rgb(77, 131, 237);
+    cursor: pointer;
+    position: relative;
+    top: -30px;
+}
+#submit6{
+    position: relative;
+    top: -30px;
+    margin-right: 40px;
+    float: right;
+    background-color:rgb(179, 240, 255) ;
+    font-size: large;
+    border-radius: 10px;
+}
+#submit6::after{
+    position: relative;
+    top: -30px;
+}
+#submit6:hover{
+    background-color: rgb(77, 131, 237);
+    cursor: pointer;
+    position: relative;
+    top: -30px;
+}
+#submit7{
+    position: relative;
+    top: -30px;
+    margin-right: 40px;
+    float: right;
+    background-color:rgb(179, 240, 255) ;
+    font-size: large;
+    border-radius: 10px;
+}
+#submit7::after{
+    position: relative;
+    top: -30px;
+}
+#submit7:hover{
+    background-color: rgb(77, 131, 237);
+    cursor: pointer;
+    position: relative;
+    top: -30px;
+}
+#submit8{
+    position: relative;
+    top: -30px;
+    margin-right: 40px;
+    float: right;
+    background-color:rgb(179, 240, 255) ;
+    font-size: large;
+    border-radius: 10px;
+}
+#submit8::after{
+    position: relative;
+    top: -30px;
+}
+#submit8:hover{
+    background-color: rgb(77, 131, 237);
+    cursor: pointer;
+    position: relative;
+    top: -30px;
+}

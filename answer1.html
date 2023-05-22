@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AskMe | Answer A Question</title>
+    <link rel="icon" href="weblogo.png" type="image/png" />
+    <link rel="stylesheet" href="style1.css" />
+    <link rel="stylesheet" href="ans.css" />
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v6.0.0-beta3/css/all.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body>
+    <div class="header">
+      <ul>
+        <li style="font-size: larger">
+          <a href="home.html"
+            ><img src="weblogo.png" alt="logo" width="30px" />AskMe.com</a
+          >
+        </li>
+        <li>
+          <input type="search" id="myInput" placeholder="Search" /><button
+            type="submit"
+          ></button>
+        </li>
+        <li style="color: white; font-weight: 900; font-size: large">
+          Welcome, User
+        </li>
+        <li style="color: white"><a href="Earn.html">Want to Earn?</a></li>
+        <li style="font-size: larger">
+          <a href="Profile.html"
+            ><i
+              class="fa fa-user"
+              style="
+                font-size: larger;
+                border: 2px solid;
+                border-radius: 5px;
+                padding: 4px;
+              "
+            ></i
+          ></a>
+        </li>
+        <li><a href="about.html">About</a></li>
+      </ul>
+    </div>
+    <div class="nav">
+      <ul>
+        <li><a href="home.html" class="active">Home</a></li>
+        <li>
+          <a href="#"
+            >Subjects <i id="angle" class="fa-solid fa-angle-down"></i
+          ></a>
+          <div class="submenu" style="margin-left: 30px">
+            <ul style="background-color: transparent; color: black">
+              <li><a href="Mathematics.html">Mathematics</a></li>
+              <li><a href="Science.html">Science</a></li>
+              <li><a href="Socio-Political.html">Socio-Political</a></li>
+              <li><a href="General_knowledge.html">General knowledge</a></li>
+            </ul>
+          </div>
+        </li>
+        <li><a href="ask_question.html">Ask a Question</a></li>
+        <li><a href="answer.html">Answer Question</a></li>
+        <li><a href="community.html">Join Our Community</a></li>
+        <li><a href="contact_us.html">Contact us</a></li>
+      </ul>
+    </div>
+    <div class="queblock">
+      <hr />
+      <section class="section1">
+        <h3>
+          <i class="fa-solid fa-square-q" style="font-size: 40px"></i
+          >&ThinSpace; What is meaning of Global variable?
+        </h3>
+        <div class="ansspace">
+          <button
+            class="ansbutton"
+            onclick="document.getElementById('text_id1').style.display = 'block'"
+          >
+            Answer Now !
+          </button>
+          <button
+            class="ansbutton"
+            onclick="document.getElementById('text_id1').style.display = 'none'"
+          >
+            hide!</button
+          >
+          <br />
+            <input type="submit" id="submit1" value="Submit" onclick="submitans()"/>
+          <textarea
+            cols="85"
+            rows="3"
+            name="text"
+            id="text_id1"
+            class="form-control"
+            style="resize: vertical; display: none; margin-top: 10px"
+          ></textarea>
+        </div>
+      <br />
+      <hr />
+      <br />
+      <section class="section1">
+        <h3>
+          <i class="fa-solid fa-square-q" style="font-size: 40px"></i
+          >&ThinSpace; What is local variable in OOP?
+        </h3>
+        <div class="ansspace">
+          <button
+            class="ansbutton"
+            onclick="document.getElementById('text_id2').style.display = 'block'"
+          >
+            Answer Now !
+          </button>
+          <button
+            class="ansbutton"
+            onclick="document.getElementById('text_id2').style.display = 'none'"
+          >
+            hide!</button
+          ><br />
+            <input type="submit" id="submit2" value="Submit" onclick="submitans()" />
+          <textarea
+            cols="85"
+            rows="3"
+            name="text"
+            id="text_id2"
+            class="form-control"
+            style="resize: vertical; display: none; margin-top: 10px"
+          ></textarea>
+        </div>
+      </section>
+      <br />
+      <hr />
+      <br />
+      <section class="section1">
+        <h3>
+          <i class="fa-solid fa-square-q" style="font-size: 40px"></i
+          >&ThinSpace; Write a C program to print "Hello World!"?
+        </h3>
+        <div class="ansspace">
+          <button
+            class="ansbutton"
+            onclick="document.getElementById('text_id3').style.display = 'block'"
+          >
+            Answer Now !
+          </button>
+          <button
+            class="ansbutton"
+            onclick="document.getElementById('text_id3').style.display = 'none'"
+          >
+            hide!</button
+          ><br />
+            <input type="submit" id="submit3" value="Submit" onclick="submitans()"/>
+          <textarea
+            cols="85"
+            rows="3"
+            name="text"
+            id="text_id3"
+            class="form-control"
+            style="resize: vertical; display: none; margin-top: 10px"
+          ></textarea>
+        </div>
+      </section>
+      <br />
+      <hr />
+      <br />
+      <section class="section1">
+        <h3>
+          <i class="fa-solid fa-square-q" style="font-size: 40px"></i
+          >&ThinSpace; Write a C program to print "Hello World!"?
+        </h3>
+        <div class="ansspace">
+          <button
+            class="ansbutton"
+            onclick="document.getElementById('text_id4').style.display = 'block'"
+          >
+            Answer Now !
+          </button>
+          <button
+            class="ansbutton"
+            onclick="document.getElementById('text_id4').style.display = 'none'"
+          >
+            hide!</button
+          ><br />
+            <input type="submit" id="submit4" value="Submit" onclick="submitans()"/>
+          <textarea
+            cols="85"
+            rows="3"
+            name="text"
+            id="text_id4"
+            class="form-control"
+            style="resize: vertical; display: none; margin-top: 10px"
+          ></textarea>
+        </div>
+      </section>
+      <br />
+      <hr />
+      <br />
+      <section class="section1">
+        <h3>
+          <i class="fa-solid fa-square-q" style="font-size: 40px"></i
+          >&ThinSpace; Write a C program to print "Hello World!"?
+        </h3>
+        <div class="ansspace">
+          <button
+            class="ansbutton"
+            onclick="document.getElementById('text_id5').style.display = 'block'"
+          >
+            Answer Now !
+          </button>
+          <button
+            class="ansbutton"
+            onclick="document.getElementById('text_id5').style.display = 'none'"
+          >
+            hide!</button
+          ><br />
+            <input type="submit" id="submit5" value="Submit" onclick="submitans()"/>
+          <textarea
+            cols="85"
+            rows="3"
+            name="text"
+            id="text_id5"
+            class="form-control"
+            style="resize: vertical; display: none; margin-top: 10px"
+          ></textarea>
+        </div>
+      </section>
+      <br />
+      <hr />
+      <br />
+      <section class="section1">
+        <h3>
+          <i class="fa-solid fa-square-q" style="font-size: 40px"></i
+          >&ThinSpace; Write a C program to print "Hello World!"?
+        </h3>
+        <div class="ansspace">
+          <button
+            class="ansbutton"
+            onclick="document.getElementById('text_id6').style.display = 'block'"
+          >
+            Answer Now !
+          </button>
+          <button
+            class="ansbutton"
+            onclick="document.getElementById('text_id6').style.display = 'none'"
+          >
+            hide!</button
+          ><br />
+            <input type="submit" id="submit6" value="Submit" onclick="submitans()"/>
+          <textarea
+            cols="85"
+            rows="3"
+            name="text"
+            id="text_id6"
+            class="form-control"
+            style="resize: vertical; display: none; margin-top: 10px"
+          ></textarea>
+        </div>
+      </section>
+      <br />
+      <hr />
+      <br />
+      <section class="section1">
+        <h3>
+          <i class="fa-solid fa-square-q" style="font-size: 40px"></i
+          >&ThinSpace; Write a C program to print "Hello World!"?
+        </h3>
+        <div class="ansspace">
+          <button
+            class="ansbutton"
+            onclick="document.getElementById('text_id7').style.display = 'block'"
+          >
+            Answer Now !
+          </button>
+          <button
+            class="ansbutton"
+            onclick="document.getElementById('text_id7').style.display = 'none'"
+          >
+            hide!</button
+          ><br />
+            <input type="submit" id="submit7" value="Submit" onclick="submitans()"/>
+          <textarea
+            cols="85"
+            rows="3"
+            name="text"
+            id="text_id7"
+            class="form-control"
+            style="resize: vertical; display: none; margin-top: 10px"
+          ></textarea>
+        </div>
+      </section>
+      <br />
+      <hr />
+      <br />
+      <section class="section1">
+        <h3>
+          <i class="fa-solid fa-square-q" style="font-size: 40px"></i
+          >&ThinSpace; Write a C program to print "Hello World!"?
+        </h3>
+        <div class="ansspace">
+          <button
+            class="ansbutton"
+            onclick="document.getElementById('text_id8').style.display = 'block'"
+          >
+            Answer Now !
+          </button>
+          <button
+            class="ansbutton"
+            onclick="document.getElementById('text_id8').style.display = 'none'"
+          >
+            hide!</button
+          ><br />
+            <input type="submit" id="submit8" value="Submit" onclick="submitans()"/>
+          <textarea
+            cols="85"
+            rows="3"
+            name="text"
+            id="text_id8"
+            class="form-control"
+            style="resize: vertical; display: none; margin-top: 10px"
+          ></textarea>
+        </div>
+      </section>
+      <br />
+      <hr />
+      <center ><a style="color: black;font-size: large;" href="answer2.html">Next Page &GreaterEqual;</a></center>
+    </div>
+    
+
+    <script>
+      function submitans(){
+        alert("Answer submitted Successfully !");
+        document.getElementById("text_id1").style.display = 'none';
+        document.getElementById("text_id2").style.display = 'none';
+        document.getElementById("text_id3").style.display = 'none';
+      }
+    </script>
+  </body>
+</html>
